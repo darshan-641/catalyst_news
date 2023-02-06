@@ -1,0 +1,731 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff url("https://example.gif") n-repeat center;
+  z-index: 99999;
+}
+
+#title {
+  background-color: black;
+  z-index: 1;
+}
+
+.title {
+  background-image: url("https://i.postimg.cc/664qfX6y/landpage-2-min-1.png");
+  background-size: 105% 105%;
+  margin-bottom: 50px;
+}
+.navbar {
+  padding: 3% 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+}
+
+.list-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item a,
+.nav-item2 a {
+  color: #fff;
+}
+
+.fa-instagram:hover {
+  color: #cf635b;
+  transition: color 0.1s ease-in 0.1s;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+  transition: color 0.1s ease-in 0.1s;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.nav-item2 {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.background-triangle {
+  position: fixed;
+  width: 1234.48px;
+  height: 1738px;
+
+  z-index: -1;
+}
+
+.info {
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 324px;
+}
+
+.info h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.info p {
+  width: 788px;
+  height: 89px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  /* margin-left: 13rem; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.info .btn {
+  padding: 6px 23px;
+  gap: 10px;
+  width: 189px;
+  height: 31px;
+  background: rgba(0, 0, 0, 0.394);
+  color: white;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.info .down{
+  padding: 6px 23px;
+  gap: 10px;
+  width: 189px;
+  height: 31px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.fa-instagram:hover {
+  color: #cf635b;
+  transition: color 0.1s ease-in 0.1s;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+  transition: color 0.1s ease-in 0.1s;
+}
+
+.info_intro {
+  padding-bottom: 25px;
+}
+
+.main_img {
+  margin-top: 40px;
+}
+
+/* Prajwal */
+.Previous_Magazines {
+  margin-top: 200px;
+}
+
+.pre_heading {
+  /* width: 23.813rem; */
+  height: 2.438rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.438rem;
+  margin: 12.25rem auto 6.688rem auto;
+  margin-bottom: 5.625rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main_div {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5.938rem;
+  margin-right: 5.938rem;
+  /* gap: 28.125rem; */
+  margin-bottom: 10.438rem;
+}
+
+.pre_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.375rem 1.938rem;
+  gap: 0.625rem;
+  width: 11.188rem;
+  height: 1.938rem;
+  background: #000000;
+  border: 0.044rem solid #ffffff;
+  border-radius: 1.5rem;
+}
+
+.pre_textbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: 1.188rem; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.188rem;
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+}
+.pre_btn:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.pre_btn:hover a {
+  color: black;
+}
+
+.pre_image {
+  background-color: azure;
+  height: 18.063rem;
+  width: 31.125rem;
+  border-radius: 1.563rem;
+}
+
+.pre_para1 {
+  height: 1.375rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.555em;
+  color: #ffffff;
+  text-decoration: underline #df0404 0.188rem;
+  text-underline-position: under;
+  margin-bottom: 1.313;
+  width: 4.438rem;
+}
+
+.pre_para2 {
+  height: 3.938rem;
+  width: 23.188rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.313rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.313rem;
+  margin-bottom: 5.188rem;
+}
+
+.pre_mheading {
+  width: 100%;
+  height: 2.75rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Vedant */
+.About-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.About-content {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.container {
+  margin-left: 199px;
+  margin-right: 200px;
+}
+
+/* sakshi */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+#social-media {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.socialMedia {
+  color: #fff;
+  padding: 2.5rem;
+  /* display: grid; */
+}
+
+.social-head {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.social-img {
+  width: 245px;
+  height: 167px;
+  border-radius: 23px;
+  border: 0.5px solid #fff;
+  display: inline-block;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem 7.5rem 2rem 7.5rem;
+}
+
+.social-icon {
+  display: inline-block;
+}
+
+.social-icon-svg {
+  margin-bottom: -4px;
+}
+
+.name1 {
+  margin-left: 7px;
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.name2 {
+  font-size: 1.3rem;
+  margin-left: 8px;
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 1.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    background-image: url("https://i.postimg.cc/tgTWFvnR/mobile-landpage-2-min.jpg");
+    background-size: 140% 100%;
+    background-repeat: no-repeat;
+  }
+  .navbar {
+    padding-top: 8%;
+  }
+
+  .list-child {
+    padding: 0;
+  }
+
+  .logo {
+    width: 113px;
+    height: 27px;
+  }
+
+  .nav-item {
+    padding: 0 1%;
+    margin-right: 3%;
+  }
+
+  .info img {
+    height: 4.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .info p {
+    width: 320px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .info .btn {
+    margin-top: 20%;
+  }
+
+  .info .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .main_img {
+    margin-top: 60px;
+  }
+
+  body {
+    padding: 0rem;
+  }
+
+  .background-triangle {
+    position: fixed;
+    display: none;
+
+    z-index: -1;
+  }
+
+  .pre_heading {
+    width: 11.313rem;
+    height: 3.625rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .main_div {
+    position: relative;
+    width: 18.75rem;
+    height: 27.188rem;
+    left: 0px;
+    top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .pre_btn {
+    padding: 0.375rem 1.938rem;
+    width: 11.188rem;
+    height: 1.938rem;
+    background: #000000;
+    border: 0.044rem solid #ffffff;
+    border-radius: 1.5rem;
+    position: absolute;
+    bottom: -50px;
+  }
+
+  .pre_content {
+    position: absolute;
+    width: 18.25rem;
+    height: 11.563rem;
+    bottom: 3.063rem;
+    margin-top: 0px;
+  }
+
+  .pre_textbtn {
+    width: 100%;
+    height: 1.188rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #c4c4c4;
+  }
+
+  .pre_image {
+    background-color: azure;
+    height: 12.688rem;
+    width: 18.25rem;
+    border-radius: 1.563rem;
+    position: absolute;
+    top: 0px;
+  }
+  .pre_image:hover {
+    transform: scale(1) translateZ(0);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .pre_para1 {
+    width: 4.73px;
+    height: 1.688rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.375;
+    letter-spacing: 0.555em;
+    color: #ffffff;
+    text-decoration: underline #df0404 0.188rem;
+    text-underline-position: under;
+    margin-bottom: 1.313rem;
+  }
+
+  .pre_para2 {
+    width: 18.25rem;
+    height: 3.563rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.938rem;
+  }
+
+  .pre_mheading {
+    width: 100%;
+    height: 1.813rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    color: #ffffff;
+  }
+
+  /* sakshi */
+
+  #social-media {
+    padding-top: 3%;
+  }
+
+  .socialMedia {
+    color: #fff;
+    padding: 0;
+  }
+
+  .social-head {
+    font-size: 24px;
+    width: 188px;
+    margin: auto;
+  }
+
+  .box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 7%;
+  }
+
+  .border {
+    border: 1px solid white;
+  }
+
+  /* Vedant */
+  .About-head {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  .About-content {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .not_in_mobile {
+    display: none;
+  }
+}
+
+.collapse {
+  margin-left: 30%;
+}
+
+/* tablet */
+
+@media only screen and (min-width: 480px) and (max-width: 950px) {
+  /* Your tab view styles go here */
+  /* Prajwal */
+  .main_div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-bottom: 10.438rem;
+    gap: 3.75rem;
+  }
+
+  .pre_image {
+    background-color: azure;
+    height: 18.063rem;
+    width: 100%;
+    border-radius: 1.563rem;
+  }
+
+  /* Harsh */
+  /* .navbar {
+    display: flex;
+    width: 250px; 
+   }
+
+.collapse {
+    
+    position: absolute;
+    left: 34rem;
+    bottom: 1%;
+}
+
+
+.is {
+    margin: 0;
+}
+
+nav {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    height: 57.64px;
+    width: 100%;
+}
+
+.fa-instagram {
+    font-size: 23px;
+    margin-left: 0;
+}
+
+.fa-linkedin {
+    font-size: 23px;
+}
+
+.img1 {
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    right: 20%;
+    top: 30%;
+}
+
+
+.fa-instagram {
+    margin-left: 0;
+} */
+
+  .info img {
+    height: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .info p {
+    width: 550px;
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .info .btn {
+    margin-top: 6%;
+    padding: 7px 5px;
+  }
+
+  /* Sakshi */
+  .socialMedia {
+    color: #fff;
+    padding: 0;
+    padding-top: 2%;
+    /* display: grid; */
+    /* width: 100vw; */
+  }
+
+  .box {
+    padding-right: 5.5rem;
+  }
+}
